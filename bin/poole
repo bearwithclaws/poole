@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'poole/cli'
+Poole::CLI.start
