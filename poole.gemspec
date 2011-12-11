@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["bearwithclaws"]
   s.email       = ["foress@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = "Jekyll's faithful butler"
+  s.description = "Poole is Dr Jekyll's butler who, upon noticing the reclusiveness and changes of his master, goes to Mr Utterson with the fear that his master has been murdered and his murderer, Mr Hyde, is residing in the chambers. Poole serves Jekyll faithfully, and attempts to do a good job and be loyal to his master. Yet events finally drive him into joining forces with Utterson to discover the truth."
 
   s.rubyforge_project = "poole"
 
