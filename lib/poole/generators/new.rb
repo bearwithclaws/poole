@@ -6,16 +6,12 @@ module Poole
 
       argument :name, :type => :string
       
-      def create_dir
-        empty_directory(name)
-      end
-      
-      def copy_files
-        template("index.html", "#{name}/index.html")
+      def copy_directory
+        directory("new", "#{name}")
       end
       
       def self.source_root
-        File.dirname(__FILE__) + "/new"
+        File.dirname(__FILE__)
       end
     end
   end
